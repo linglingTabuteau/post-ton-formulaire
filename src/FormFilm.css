@@ -1,0 +1,30 @@
+.FormFilm{
+    width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    height: 900px;
+   }
+   .FormFilm h1 {
+    text-align: center;
+   }
+   
+   .FormFilm .form-data {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+   }
+   
+   .FormFilm .form-data label {
+    display: inline-block;
+    width: 100px;
+    margin-right: 10px;
+    text-align: right;
+   }
+   
+   .FormFilm .form-data input:not([type="submit"]) {
+    flex-grow: 1;
+   }
+   .size{
+       height: 300px;
+       width: 800px;
+   }
